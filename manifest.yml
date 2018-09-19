@@ -3,6 +3,6 @@ applications:
 - name: palTrackerDay2
   path: build/libs/pal-tracker.jar
   routes:
-  - route: paltrackerblore.apps.pikes.pal.pivotal.io/
+  - route: paltrackerbloretravis.apps.pikes.pal.pivotal.io/
   env:
     WELCOME_MESSAGE: Hello from the review environment
