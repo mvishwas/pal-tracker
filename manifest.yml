@@ -1,8 +1,7 @@
 ---
 applications:
-- name: palTrackerDay3
+- name: pal-tracker
   path: build/libs/pal-tracker.jar
-  routes:
-  - route: paltrackerbloretravismvc.apps.pikes.pal.pivotal.io/
+  random-route: true
   env:
     WELCOME_MESSAGE: Hello from the review environment
